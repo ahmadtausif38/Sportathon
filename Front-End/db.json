@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "name": "Sabya Sabya",
+      "email": "sabya7011@gmail.com",
+      "phoneNumber": "8468807486",
+      "gender": "female",
+      "password": "hjfgdghjklhghcfgxchvj",
+      "id": 1
+    },
+    {
+      "name": "Merry",
+      "email": "merry@gmail.com",
+      "phoneNumber": "1234567171",
+      "gender": "female",
+      "password": "eafsgdhfjfgdfsafsgdh",
+      "id": 2
+    },
+    {
+      "name": "sdfgfdbg",
+      "email": "adsf@gmail.com",
+      "phoneNumber": "6727272486",
+      "gender": "male",
+      "password": "erwgethrgjegsdfa",
+      "id": 3
+    },
+    {
+      "name": "john",
+      "email": "john@gmail.com",
+      "phoneNumber": "7777777777",
+      "gender": "male",
+      "password": "12345678",
+      "id": 4
+    },
+    {
+      "name": "hjagfdaf",
+      "email": "sasd@jksdfg.com",
+      "phoneNumber": "6666666666",
+      "gender": "female",
+      "password": "12345678",
+      "id": 5
+    },
+    {
+      "name": "sabya",
+      "email": "sabya7011@gmail.com",
+      "phoneNumber": "8468807486",
+      "gender": "female",
+      "password": "12345678",
+      "id": 6
+    }
+  ],
+  "games": [
+    {
+      "gameId": 1,
+      "gameName": "tennis",
+      "gameType": "indoor",
+      "noOFPlayers": 2
+    },
+    {
+      "gameId": 2,
+      "gameName": "chess",
+      "gameType": "indoor",
+      "noOFPlayers": 0
+    },
+    {
+      "gameId": 3,
+      "gameName": "football",
+      "gameType": "outdoor",
+      "noOFPlayers": 7
+    },
+    {
+      "gameId": 4,
+      "gameName": "cricket",
+      "gameType": "outdoor",
+      "noOFPlayers": 5
+    }
+  ],
+  "team": []
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <title>User Dashboard</title>
+</head>
+<body class="bg-gray-100 font-sans">
+    <div class="flex h-screen overflow-hidden">
+        <!-- Sidebar -->
+        <div class="bg-blue-900 text-white w-80 space-y-6 py-7 px-2 absolute inset-y-0 left-0 transform -translate-x-full md:relative md:translate-x-0 transition duration-200 ease-in-out">
+            <a href="#" class="text-white flex items-center space-x-2 px-4">
+                <span class="text-2xl font-extrabold">Game Dashboard</span>
+            </a>
+            <nav>
+                <a href="#" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 hover:text-white">Game 1</a>
+                <a href="#" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 hover:text-white">Game 2</a>
+                <a href="#" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 hover:text-white">Game 3</a>
+                <a href="#" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-700 hover:text-white">Game 4</a>
+                <!-- Repeat for other games -->
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 flex flex-col overflow-hidden">
+            <header class="flex justify-between items-center p-6">
+                <div class="flex items-center space-x-4 lg:space-x-0">
+                    <h1 class="text-4xl font-bold text-gray-800 lg:hidden">Details</h1>
+                </div>
+            </header>
+            <main class="flex-1 overflow-x-hidden overflow-y-auto bg-gray-200">
+                <div class="container mx-auto px-6 py-8">
+                    <h3 class="text-gray-700 text-3xl font-medium">Game Details</h3>
+                    <div class="mt-4">
+                        <div class="bg-white shadow rounded-lg p-6">
+                            <div class="flex items-center justify-between pb-6">
+                                <div>
+                                    <h2 class="text-gray-600 font-semibold">Schedule</h2>
+                                    <span class="text-xs">Date and Time of the Game</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between pb-6">
+                                <div>
+                                    <h2 class="text-gray-600 font-semibold">Venue</h2>
+                                    <span class="text-xs">Location of the Game</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h2 class="text-gray-600 font-semibold">Teammates</h2>
+                                <div class="mt-2">
+                                    <div class="bg-blue-100 rounded-lg p-3 shadow-md">
+                                        <p class="text-gray-600">Teammate 1</p>
+                                    </div>
+                                    <div class="bg-blue-100 rounded-lg p-3 shadow-md mt-2">
+                                        <p class="text-gray-600">Teammate 2</p>
+                                    </div>
+                                    <div class="bg-blue-100 rounded-lg p-3 shadow-md mt-2">
+                                        <p class="text-gray-600">Teammate 3</p>
+                                    </div>
+                                    <!-- Repeat for other teammates -->
+                                </div>
+                            </div>
+                            <div class="mt-4">
+                                <h2 class="text-gray-600 font-semibold">Game Results</h2>
+                                <div class="mt-2">
+                                    <div class="bg-white rounded-lg p-3 shadow-md">
+                                        <div class="flex items-center justify-between">
+                                            <span class="font-bold text-md">Round 1</span>
+                                            <span class="px-3 py-1 text-sm rounded text-green-500 border border-green-500">Win</span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-white rounded-lg p-3 shadow-md mt-2">
+                                        <div class="flex items-center justify-between">
+                                            <span class="font-bold text-md">Round 2</span>
+                                            <span class="px-3 py-1 text-sm rounded text-red-500 border border-red-500">Loss</span>
+                                        </div>
+                                    </div>
+                                    <div class="bg-white rounded-lg p-3 shadow-md mt-2">
+                                        <div class="flex items-center justify-between">
+                                            <span class="font-bold text-md">Round 3</span>
+                                            <span class="px-3 py-1 text-sm rounded text-green-500 border border-green-500">Win</span>
+                                        </div>
+                                    </div>
+                                    <!-- Repeat for other rounds -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
